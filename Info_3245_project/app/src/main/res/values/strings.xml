@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Info_3245_project</string>
+
+    <!--Main Activity/Menu page-->
+    <string name="userBTN">Survey Takers</string>
+    <string name="adminBTN">Survey Admin</string>
+
+
+</resources>
