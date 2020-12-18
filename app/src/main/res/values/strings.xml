@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">INFO3245_Project</string>
+
+    <!--Universal-->
+    <string name="backBTN">Back</string>
+    <string name="submitBTN">Submit</string>
+    <!--Main Menu-->
+    <string name="startSurveyBTN">Start the Survey</string>
+    <string name="adminSurveyBTN">Modify the Survey</string>
+
+    <!--Admin Menu-->
+    <string name="adminSplash">Welcome to the Admin Menu</string>
+    <string name="viewquestionsBTN">Manage Questions/Results </string>
+    <string name="addquestionBTN">Add a question</string>
+
+    <!--question maker-->
+    <string name="instructions">Please type your question here. Max 254 characters</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionMaker"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <EditText
+        android:id="@+id/questionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:hint="Type your question here"
+        android:padding="25dp"
+        android:background="#CCC"
+        android:maxLength="254"
+        />
+
+    <Button
+        android:id="@+id/QM_questionSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/submitBTN"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="65dp"
+        android:paddingRight="65dp"
+        android:textColor="#FFF"
+        />
+
+    <Button
+        android:id="@+id/QM_backBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/backBTN"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:textColor="#FFF"
+        />
+
+
+</LinearLayout>

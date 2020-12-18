@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionManager"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Your Questions Here."
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select a question you wish to modify by clicking on it."
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionsListView"
+            >
+
+        </ListView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <Button
+            android:id="@+id/updateQuestionBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Question" />
+
+        <Button
+            android:id="@+id/deleteQuestionBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Question" />
+        <Button
+            android:id="@+id/QM_backBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backBTN"
+            android:backgroundTint="@color/buttonColor"
+            android:textColor="#FFF"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
